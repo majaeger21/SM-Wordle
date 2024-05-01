@@ -1,1 +1,1 @@
-# SM-Wordle-
+# SM-Wordle
