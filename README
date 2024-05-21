@@ -1,0 +1,14 @@
+INSTALLATIONS: 
+1. Create new virtual environment: python3 -m venv venv
+2. Activate the virual environment: source venv/bin/activate
+3. Install dependencies: pip install -r requirements.txt
+
+HOW TO PLAY:
+1. o to the wordle website
+2. Run the program by pressing the triangle on top left or run 'python wordle.py'
+3. The solver will provide you the words to guess
+    To input the colours the convention is:
+    x for gray
+    y for yellow 
+    g for greeen
+    Enter the words provided in the wordle website
