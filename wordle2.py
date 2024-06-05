@@ -267,4 +267,33 @@ def main(SOL):
 
 
 
-main("stark");
+# main("stark");
+
+
+#################### DEMO ######################################################
+def demo(start, sol):
+    global print_flag
+    print_flag = True
+
+    # General Agent (Random)
+    print("General Agent (Random)")
+    general(start, sol)
+
+    # Player1 (consonants, blends - th, cr, st, etc)
+    print("\nPlayer1 (consonants, blends - th, cr, st, etc)")
+    player1(start, sol)
+
+    # Player2 (1st: CLOSE 2nd: TRAIN, then random)
+    print("\nPlayer2 (1st: CLOSE 2nd: TRAIN, then random)")
+    player2(sol)
+
+    # Player3 (1st: STARE, lots of vowels)
+    print("\nPlayer3 (1st: STARE, lots of vowels)")
+    player2(sol)
+
+
+
+
+
+start, sol = input("Enter start word and solution separated by space (START SOLUTION)").split()
+demo(start, sol)
